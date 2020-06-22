@@ -1,0 +1,14 @@
+#include<studio.h>
+int main()
+{
+int a,b;//declaration of two variables
+printf("Enter two numbers");
+scanf("%d",&a,&b);//inputting the values of two variables
+printf("The numbers before swapping are %d %d",a,b);// printing the values before swap
+b=a+b;
+a=b-a;
+b=b-a;//swapping without temporary variable
+printf("The numbers after swapping are %d %d",a,b);//printing the values after swap
+return 0;
+}
+
